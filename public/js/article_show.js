@@ -6,7 +6,7 @@ $(document).ready(function() {
         $link.toggleClass('fa-heart-o').toggleClass('fa-heart');
 
         $('.js-like-article-count').html('TEST');
-        
+
         $.ajax({
             method: 'POST',
             url: $link.attr('href')
